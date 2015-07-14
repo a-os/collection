@@ -10,8 +10,8 @@ require('/test/unit/mock_contextmenu.js');
 require('/test/unit/mock_view_apps.js');
 require('/test/unit/mock_view_bg.js');
 require('/test/unit/mock_view_editmode.js');
-require('/shared/js/l10n.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/l10n/l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
 
 var mocksForCollection = new MocksHelper([
   'Contextmenu',

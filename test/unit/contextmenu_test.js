@@ -2,8 +2,8 @@
 /* global Contextmenu */
 /* global BookmarksDatabase */
 
-require('/shared/js/bookmarks_database.js');
-require('/shared/js/l10n.js');
+require('/shared/bookmarks_database/bookmarks_database.js');
+require('/shared/l10n/l10n.js');
 require('/js/contextmenu.js');
 
 suite('contextmenu > ', function() {

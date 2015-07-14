@@ -2,7 +2,7 @@
 /* global ViewBgImage */
 /* global Promise */
 
-require('/shared/js/l10n.js');
+require('/shared/l10n/l10n.js');
 
 suite('bg image > ', function() {
   var subject;

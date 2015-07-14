@@ -96,7 +96,7 @@
         return this.name;
       }
 
-      // l10n prefix taken from /shared/locales/collection_categories
+      // l10n prefix taken from /shared/collection_categories
       var l10nId = 'collection-categoryId-' + this.categoryId;
       return navigator.mozL10n.get(l10nId) || this.name;
     },

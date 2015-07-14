@@ -5,8 +5,8 @@
 require('/js/common.js');
 require('/js/objects.js');
 require('/js/collection_icon.js');
-require('/shared/test/unit/mocks/mock_collections_database.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_collections_database.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
 
 var mocksForCollection = new MocksHelper(['CollectionsDatabase']).init();
 

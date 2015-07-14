@@ -2,9 +2,9 @@
 
 /* global CollectionsDatabase, MockDatastore, MockNavigatorDatastore */
 
-require('/shared/test/unit/mocks/mock_navigator_datastore.js');
-require('/shared/js/uuid.js');
-require('/shared/js/collections_database.js');
+require('/shared/unit_test_mocks/mock_navigator_datastore.js');
+require('/shared/uuid/uuid.js');
+require('/shared/collections_database/collections_database.js');
 
 suite('collections_database.js >', function() {
 

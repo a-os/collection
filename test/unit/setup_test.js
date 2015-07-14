@@ -3,9 +3,9 @@
 /* global MockNavigatormozSetMessageHandler, CollectionsDatabase, setup,
           MockXMLHttpRequest */
 
-require('/shared/js/collections_database.js');
+require('/shared/collections_database/collections_database.js');
 requireApp('collection/test/unit/mock_xmlhttprequest.js');
-require('/shared/test/unit/mocks/mock_navigator_moz_set_message_handler.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_set_message_handler.js');
 
 var mocksHelperForInitialized = new MocksHelper([
   'XMLHttpRequest'

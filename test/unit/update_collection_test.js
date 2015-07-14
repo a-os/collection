@@ -4,8 +4,8 @@
 /* global require, suite, suiteTeardown, suiteSetup, test, assert, sinon */
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/elements/gaia_grid/js/grid_icon_renderer.js');
-require('/shared/js/homescreens/icon.js');
+require('/shared/gaia_grid/js/grid_icon_renderer.js');
+require('/shared/homescreens/icon/homescreens/icon.js');
 
 requireApp('collection/js/common.js');
 requireApp('collection/js/objects.js');

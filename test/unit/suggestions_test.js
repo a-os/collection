@@ -2,8 +2,8 @@
 /* global MockL10n */
 /* global Suggestions */
 
-require('/shared/test/unit/mocks/mock_collections_database.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_collections_database.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 var mocksForSuggestions = new MocksHelper([
   'CollectionsDatabase'
