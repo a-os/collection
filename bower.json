@@ -1,0 +1,43 @@
+{
+  "name": "collection",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alivedise/collection",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "shared",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "async_storage": "git@github.com:alivedise/async_storage.git",
+    "bookmarks_database": "git@github.com:alivedise/bookmarks_database.git",
+    "collections_database": "git@github.com:alivedise/collections_database.git",
+    "component_utils": "git@github.com:alivedise/component_utils.git",
+    "config": "git@github.com:alivedise/config.git#~0.0.1",
+    "confirm": "git@github.com:alivedise/confirm.git",
+    "dedupe": "git@github.com:alivedise/dedupe.git",
+    "everythingme": "git@github.com:alivedise/everythingme.git#~0.0.1",
+    "font_size_utils": "git@github.com:alivedise/font_size_utils.git#~0.0.1",
+    "gaia-header": "git@github.com:alivedise/gaia-header.git#~0.0.1",
+    "gaia-icons": "git@github.com:alivedise/gaia-icons.git#~0.0.1",
+    "gaia-theme": "git@github.com:alivedise/gaia-theme.git#~0.0.1",
+    "gaia_buttons": "git@github.com:alivedise/gaia_buttons.git#~0.0.1",
+    "gaia_confirm": "git@github.com:alivedise/gaia_confirm.git#~0.0.1",
+    "gaia_grid": "git@github.com:alivedise/gaia_grid.git#~0.0.1",
+    "gaia_menu": "git@github.com:alivedise/gaia_menu.git#~0.0.1",
+    "headers": "git@github.com:alivedise/headers.git#~0.0.1",
+    "homescreens": "git@github.com:alivedise/homescreens.git#~0.0.1",
+    "icons_helper": "git@github.com:alivedise/icons_helper.git#~0.0.1",
+    "input_areas": "git@github.com:alivedise/input_areas.git#~0.0.1",
+    "l10n": "git@github.com:alivedise/l10n.git#~0.0.1",
+    "lazy_loader": "git@github.com:alivedise/lazy_loader.git#~0.0.1",
+    "settings_listener": "git@github.com:alivedise/settings_listener.git#~0.0.1",
+    "progress_activity": "git@github.com:alivedise/progress_activity.git#~0.0.1",
+    "url_helper": "git@github.com:alivedise/url_helper.git#~0.0.1",
+    "uuid": "git@github.com:alivedise/uuid.git#~0.0.1",
+    "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git#~0.0.1"
+  }
+}
